@@ -14,6 +14,7 @@ public class User {
     this.login = login;
     this.email= email;
   }
+
     public User(String login, String email) {
     if (login == null || login.isEmpty() || login.isBlank() ) {
       throw new IncorrectDataException("не верные данные");
