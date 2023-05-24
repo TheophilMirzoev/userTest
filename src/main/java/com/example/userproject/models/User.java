@@ -21,7 +21,6 @@ public class User {
     } else {
       this.login = login;
     }
-
     if ((!email.contains("@") & !email.contains(".")) || email.isEmpty() || email.isBlank() || email == null) {
       //this.email = email;
       throw new IncorrectDataException("не верные данные");
